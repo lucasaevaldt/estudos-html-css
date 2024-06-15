@@ -1,11 +1,39 @@
 body {
-    margin: 0;
-    padding: 0;
+    width: 80%;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #cdcdcc;
+    margin-bottom: 60px;
 }
 
-.container {
-    margin: 0 auto;
-    align-items: center;
-    max-width: 1000px;
-    background-color: grey;
+h1 {
+    font-size: 46px;
+    background-color: #acafd4;
+    text-align: center;
+    color: #071760;
+}
+
+.centro {
+    text-align: center;
+}
+
+h2 {
+    margin-top: 40px;
+    background-color: #b7b7b6;
+    padding: 10px;
+    color: #071760;
+    border-bottom: 4px solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    padding: 0;
+    list-style: inside;
 }
